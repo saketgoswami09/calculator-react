@@ -1,0 +1,71 @@
+@font-face {
+  font-family: fine;
+  src: url(../NeueHaasDisplayMediu.ttf);
+}
+
+.calculator {
+  font-family: fine;
+  max-width: 400px;
+  margin: 200px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  transition: all ease 0.4s;
+  box-shadow: 0px 5px 10px 0px rgba(220,55,155,0.7)
+}
+
+
+.calculator:hover{
+  transform: translateY(-5px);
+  box-shadow:
+  linear-gradient(red, transparent),
+  linear-gradient(to top left, lime, transparent),
+  linear-gradient(to top right, blue, transparent);
+background-blend-mode: screen;
+  
+
+}
+
+.input-container {
+  
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  text-transform: lowercase;
+  width: calc(50% - 10px);
+  padding: 10px;
+  margin: 5px;
+
+  font-size: 16px;
+}
+
+.button-container {
+  margin-bottom: 20px;
+  border-radius: 40px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  color:white;
+  background-color: black;
+  cursor: pointer;
+}
+
+
+  
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.result {
+  color: green;
+  font-size: 18px;
+}
